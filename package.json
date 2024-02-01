@@ -16,6 +16,7 @@
   "author": "Jen-Chieh Shen",
   "license": "MIT",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
