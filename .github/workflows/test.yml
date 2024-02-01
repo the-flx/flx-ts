@@ -22,8 +22,15 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Run tests
+    - run: npm install --save-dev
+
+    - name: Run tsc
       run: |
         npm install -g typescript
         npm install --save-dev
         tsc
+
+    - name: Run bundler
+      run: |
+        npm install -g tsup
+        tsup
