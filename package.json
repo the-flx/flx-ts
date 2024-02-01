@@ -3,12 +3,19 @@
   "version": "0.0.1",
   "description": "Rewrite emacs-flx in TypeScript",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcs090218/flx-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcs090218/flx-ts/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jen-Chieh Shen",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.3.3"
   }
 }
