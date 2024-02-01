@@ -34,3 +34,9 @@ jobs:
       run: |
         npm install -g tsup
         tsup
+
+    - name: Run tests
+      run: |
+        npm install -g jest
+        npm install -g ts-jest
+        jest
