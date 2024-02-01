@@ -24,5 +24,6 @@ jobs:
 
     - name: Run tests
       run: |
+        npm install -g typescript
         npm install --save-dev
         tsc
