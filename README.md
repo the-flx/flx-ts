@@ -1,2 +1,3 @@
 # flx-ts
-Rewrite emacs-flx in TypeScript [maintainer=@jcs090218]
+
+Rewrite emacs-flx in TypeScript
