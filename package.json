@@ -2,7 +2,12 @@
   "name": "flx-ts",
   "version": "0.0.1",
   "description": "Rewrite emacs-flx in TypeScript",
-  "main": "index.js",
+  "main": "./dist/flx.js",
+  "module": "./dist/flx.mjs",
+  "types": "./dist/flx.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jcs090218/flx-ts.git"
