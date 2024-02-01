@@ -6,6 +6,8 @@
 # flx-ts
 > Rewrite emacs-flx in TypeScript, with added support for JavaScript
 
+[![CI](https://github.com/jcs090218/flx-ts/actions/workflows/test.yml/badge.svg)](https://github.com/jcs090218/flx-ts/actions/workflows/test.yml)
+
 ## 🔍 See Also
 
 - [flx][] - Original algorithm
