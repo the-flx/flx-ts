@@ -1,7 +1,7 @@
 import { Util } from './util';
 
 export interface Score {
-    indices: number[];
+    indices: Array<number>;
     score: number;
     tail: number;
 }
@@ -316,7 +316,7 @@ export class Flx {
                             bestScore = tempScore;
 
                             imatch = [];
-                            const indices = [...elem.indices];
+                            const indices = [index, ...elem.indices];
                             let tail = 0;
                             if ((caar - 1) === index) {
                                 tail = cddr + 1;

@@ -27,13 +27,16 @@ jobs:
     - name: Run tsc
       run: |
         npm install -g typescript
-        npm install --save-dev
         tsc
 
-    - name: Run bundler
+    - name: Run bundler (tsup)
       run: |
         npm install -g tsup
         tsup
+
+    - name: Run bundler (webpack)
+      run: |
+        npx webpack
 
     - name: Run tests
       run: |
