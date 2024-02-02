@@ -19,7 +19,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     iife: false,
     libraryTarget: 'var',
-    library: 'jcs090218',
+    library: 'flx_ts',
   },
   mode: "production",
 };
