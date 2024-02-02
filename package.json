@@ -1,6 +1,6 @@
 {
   "name": "flx-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rewrite emacs-flx in TypeScript",
   "main": "./dist/flx.js",
   "module": "./dist/flx.mjs",
