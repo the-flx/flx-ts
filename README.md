@@ -8,6 +8,44 @@
 
 [![CI](https://github.com/jcs090218/flx-ts/actions/workflows/test.yml/badge.svg)](https://github.com/jcs090218/flx-ts/actions/workflows/test.yml)
 
+## 🔧 Usage
+
+You will need to first install the package:
+
+```bash
+$ npm install flx-ts
+```
+
+### CommonJS
+
+```js
+const flx_ts = require('flx-ts');
+
+console.log(flx_ts.Flx.Score("buffer-file-name", "bfn"));
+```
+
+### TypeScript
+
+```typescript
+import { Flx } from 'flx-ts';
+
+console.log(Flx.Score("buffer-file-name", "bfn"));
+```
+
+### Browser
+
+In your `index.html`:
+
+```html
+<script src="/path/to/flx.js"></script>
+```
+
+In your javascript file:
+
+```js
+console.log(flx_ts.Flx.Score("buffer-file-name", "bfn"));
+```
+
 ## 🔍 See Also
 
 - [flx][] - Original algorithm
