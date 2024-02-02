@@ -52,6 +52,12 @@ console.log(flx_ts.Flx.Score("buffer-file-name", "bfn"));
 - [flx-rs][] - Rewrite emacs-flx in Rust for dynamic modules
 - [FlxCs][] - Rewrite emacs-flx in C#
 
+## 📦 Other alternatives
+
+- [fuzzysort](https://github.com/farzher/fuzzysort)
+
+*📝 P.S. Source are from a Reddit post [What is your go to client-side fuzzy searching library?](https://www.reddit.com/r/nextjs/comments/10yxu92/what_is_your_go_to_clientside_fuzzy_searching/).*
+
 ## ⚜️ License
 
 flx-ts is distributed under the terms of the MIT license.
