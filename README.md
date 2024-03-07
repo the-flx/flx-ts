@@ -48,7 +48,7 @@ console.log(flx_ts.Flx.Score("buffer-file-name", "bfn"));
 
 ## 🔍 See Also
 
-- [flx][] - Original algorithm
+- [flx][] - Original algorithm in Emacs Lisp
 - [flx-rs][] - Rewrite emacs-flx in Rust for dynamic modules
 - [FlxCs][] - Rewrite emacs-flx in C#
 - [flx-c][] - Rewrite emacs-flx in C
