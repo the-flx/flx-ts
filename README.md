@@ -52,6 +52,7 @@ console.log(flx_ts.Flx.Score("buffer-file-name", "bfn"));
 - [flx-rs][] - Rewrite emacs-flx in Rust for dynamic modules
 - [FlxCs][] - Rewrite emacs-flx in C#
 - [flx-c][] - Rewrite emacs-flx in C
+- [flx-zig][] - Rewrite emacs-flx in Zig
 
 ## 📦 Other alternatives
 
@@ -73,3 +74,4 @@ See [LICENSE](./LICENSE) for details.
 [FlxCs]: https://github.com/jcs090218/FlxCs
 [flx-ts]: https://github.com/jcs090218/flx-ts
 [flx-c]: https://github.com/jcs090218/flx-c
+[flx-zig]: https://github.com/jcs090218/flx-zig
