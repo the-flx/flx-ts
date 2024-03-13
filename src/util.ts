@@ -1,7 +1,7 @@
-import { Score } from './flx';
+import { Result } from './flx';
 
 export class Util {
-    public static dictSet(result: Map<number, Array<Score>>, key: number | null, val: Array<Score>): void {
+    public static dictSet(result: Map<number, Array<Result>>, key: number | null, val: Array<Result>): void {
         if (key === null) return;
         result.set(key, val);
     }

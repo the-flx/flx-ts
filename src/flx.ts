@@ -1,6 +1,6 @@
 import { Util } from './util';
 
-export interface Score {
+export interface Result {
     indices: Array<number>;
     score: number;
     tail: number;
@@ -256,13 +256,13 @@ export class Flx {
      * HEATMAP, according to QUERY.
      */
     public static FindBestMatch(
-        imatch: Array<Score>,
+        imatch: Array<Result>,
         strInfo: Map<number, Array<number>>,
         heatmap: Array<number>,
         greaterThan: number | null,
         query: string, queryLength: number,
         qIndex: number,
-        matchCache: Map<number, Array<Score>>): Array<Score> {
+        matchCache: Map<number, Array<Result>>): Array<Result> {
 
         let greaterNum = (greaterThan !== null) ? greaterThan : 0;
         let hashKey: number = qIndex + (greaterNum * queryLength);
@@ -291,7 +291,7 @@ export class Flx {
                 }
             } else {
                 for (const index of indexes) {
-                    let elemGroup = Array<Score>();
+                    let elemGroup = Array<Result>();
                     elemGroup = Flx.FindBestMatch(elemGroup,
                         strInfo,
                         [...heatmap],
@@ -334,7 +334,7 @@ export class Flx {
         return imatch;
     }
 
-    public static Score(str: string, query: string): Score | null {
+    public static Score(str: string, query: string): Result | null {
         if (str === '' || query === '') {
             return null;
         }
@@ -347,8 +347,8 @@ export class Flx {
 
         let queryLength = query.length;
         let fullMatchBoost = (1 < queryLength) && (queryLength < 5);
-        let matchCache: Map<number, Array<Score>> = new Map();
-        let optimalMatch: Array<Score> = new Array();
+        let matchCache: Map<number, Array<Result>> = new Map();
+        let optimalMatch: Array<Result> = new Array();
         optimalMatch = Flx.FindBestMatch(optimalMatch, strInfo, heatmap, null, query, queryLength, 0, matchCache);
 
         if (optimalMatch.length === 0) {

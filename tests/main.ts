@@ -1,8 +1,8 @@
-import { Flx, Score } from '../src/flx';
+import { Flx, Result } from '../src/flx';
 
 function main() {
-    let score: Score | null  = Flx.Score("buffer-file-name", "bfn");
-    console.log('Score: ' + score?.score);
+    let result: Result | null  = Flx.Score("buffer-file-name", "bfn");
+    console.log('Score: ' + result?.score);
 }
 
 main();
