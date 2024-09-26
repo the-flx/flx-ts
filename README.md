@@ -6,7 +6,7 @@
 # flx-ts
 > Rewrite emacs-flx in TypeScript, with added support for JavaScript
 
-[![CI](https://github.com/jcs090218/flx-ts/actions/workflows/test.yml/badge.svg)](https://github.com/jcs090218/flx-ts/actions/workflows/test.yml)
+[![CI](https://github.com/the-flx/flx-ts/actions/workflows/test.yml/badge.svg)](https://github.com/the-flx/flx-ts/actions/workflows/test.yml)
 
 ## 🔧 Usage
 
@@ -46,14 +46,6 @@ In your javascript file:
 console.log(flx_ts.Flx.Score("buffer-file-name", "bfn"));
 ```
 
-## 🔍 See Also
-
-- [flx][] - Original algorithm in Emacs Lisp
-- [flx-rs][] - Rewrite emacs-flx in Rust for dynamic modules
-- [FlxCs][] - Rewrite emacs-flx in C#
-- [flx-c][] - Rewrite emacs-flx in C
-- [flx-zig][] - Rewrite emacs-flx in Zig
-
 ## 📦 Other alternatives
 
 - [fuzzysort](https://github.com/farzher/fuzzysort)
@@ -70,8 +62,3 @@ See [LICENSE](./LICENSE) for details.
 <!-- Links -->
 
 [flx]: https://github.com/lewang/flx
-[flx-rs]: https://github.com/jcs090218/flx-rs
-[FlxCs]: https://github.com/jcs090218/FlxCs
-[flx-ts]: https://github.com/jcs090218/flx-ts
-[flx-c]: https://github.com/jcs090218/flx-c
-[flx-zig]: https://github.com/jcs090218/flx-zig
