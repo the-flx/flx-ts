@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcs090218/flx-ts.git"
+    "url": "git+https://github.com/the-flx/flx-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/jcs090218/flx-ts/issues"
+    "url": "https://github.com/the-flx/flx-ts/issues"
   },
   "scripts": {
     "build": "tsup && npx webpack",
